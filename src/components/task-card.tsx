@@ -17,7 +17,7 @@ export function TaskCard({ task, onToggle, onDelete }: TaskCardProps) {
 
   return (
     <>
-      <Link href={`/edit/${task.id}`}>
+      <Link href={`/edit/${task.id}`} className='block'>
         <div className={`p-4 rounded-lg flex items-start gap-4 bg-[#333333]`}>
           <button
             onClick={(e) => {
